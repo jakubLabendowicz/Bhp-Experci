@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+exports.schemaTypes = void 0;
+var app_1 = require("./app");
+var page_1 = require("./page");
+var link_1 = require("./link");
+var profile_1 = require("./profile");
+var offer_1 = require("./offer");
+var realization_1 = require("./realization");
+var opinion_1 = require("./opinion");
+var post_1 = require("./post");
+var question_1 = require("./question");
+exports.schemaTypes = [app_1["default"], page_1["default"], link_1["default"], profile_1["default"], offer_1["default"], realization_1["default"], opinion_1["default"], post_1["default"], question_1["default"]];
