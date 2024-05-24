@@ -6,10 +6,10 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"check": "svelte-kit sync && svelte-check --tsconfig tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir ../../Downloads/Nowy folder --check . && eslint .",
+		"format": "prettier --plugin-search-dir ../../Downloads/Nowy folder --write ."
 	},
 	"dependencies": {
 		"@sanity/client": "^6.0.0",
@@ -21,7 +21,7 @@
 		"@portabletext/svelte": "^2.0.0",
 		"@portabletext/types": "^2.0.2",
 		"@sanity/types": "^3.7.1",
-		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-node": "^1.0.0",
 		"@sveltejs/kit": "^1.5.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
